@@ -1,0 +1,3 @@
+1. kubectl get pods -n amazon-cloudwatch
+2. kubectl describe pod fluent-bit-4xbln -n amazon-cloudwatch
+3. kubectl logs fluent-bit-4xbln -c fluent-bit -n amazon-cloudwatch

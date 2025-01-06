@@ -1,0 +1,13 @@
+# values.yaml
+
+# General cluster information
+clusterName: "eks-cluster"
+logsRegion: "us-east-1"
+
+# Fluent Bit HTTP Server Configuration
+httpServer: "On"
+httpPort: "2020"
+
+# Log reading configuration
+readFromHead: "Off"              # Set "On" to read logs from the start (head), "Off" otherwise
+readFromTail: "On"               # Set "On" to read logs from the end (tail), "Off" otherwise
